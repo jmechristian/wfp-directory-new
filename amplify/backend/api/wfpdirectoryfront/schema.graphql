@@ -1,0 +1,83 @@
+type AuthConfig
+  @model
+  @auth(
+    rules: [
+      # No longer used once you switch to Cognito login, but kept for now.
+      # Lock it down to signed-in users only (User Pools).
+      {
+        allow: private
+        provider: userPools
+        operations: [create, update, delete, read]
+      }
+    ]
+  ) {
+  id: ID!
+  passwordHash: String!
+  type: String!
+  updatedAt: AWSDateTime!
+}
+
+type Settings
+  @model
+  @auth(
+    rules: [
+      # If you still want a public "password required" flag, keep public read.
+      { allow: public, operations: [read] }
+      {
+        allow: private
+        provider: userPools
+        operations: [create, update, delete, read]
+      }
+    ]
+  ) {
+  id: ID!
+  passwordRequired: Boolean!
+}
+
+type Category
+  @model
+  @auth(
+    rules: [
+      { allow: public, operations: [read] }
+      {
+        allow: private
+        provider: userPools
+        operations: [create, update, delete, read]
+      }
+    ]
+  ) {
+  id: ID!
+  name: String!
+  description: String
+  order: Int!
+  links: [Link] @hasMany(indexName: "byCategory", fields: ["id"])
+  # Nullable so existing rows (created before the field existed) don't break GraphQL reads.
+  # Treat null as "live" in the app.
+  isLive: Boolean
+}
+
+type Link
+  @model
+  @auth(
+    rules: [
+      { allow: public, operations: [read] }
+      {
+        allow: private
+        provider: userPools
+        operations: [create, update, delete, read]
+      }
+    ]
+  ) {
+  id: ID!
+  categoryId: ID! @index(name: "byCategory", sortKeyFields: ["order"])
+  category: Category @belongsTo(fields: ["categoryId"])
+  title: String!
+  description: String
+  url: AWSURL!
+  order: Int!
+  isNew: Boolean!
+  isUpdated: Boolean!
+  lastUpdated: AWSDate
+  # Nullable so existing rows don't break GraphQL reads. Treat null as "live" in the app.
+  isLive: Boolean
+}

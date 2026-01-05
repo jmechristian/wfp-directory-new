@@ -1,0 +1,248 @@
+.page__container {
+  width: 100%;
+}
+
+.body__wrapper {
+  margin: 0 auto;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  padding-bottom: 30px;
+  margin-top: 12vw;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 50px;
+  padding-left: 9vw;
+  padding-right: 9vw;
+}
+
+.content__wrapper {
+  margin-top: 12vw;
+}
+
+.link__grid {
+  display: grid;
+  margin-bottom: 50px;
+  grid-gap: 0 10%;
+}
+
+.search__link__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2% 10%;
+}
+
+.loader {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.loader__text {
+  font-family: $bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  color: $secondary;
+}
+
+.link-loading {
+  font-family: $body;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: $primary;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 325px) {
+  .wfp__logo {
+    width: 15vw;
+    margin-right: 4px;
+    fill: $primary;
+  }
+  .logo__container {
+    text-align: center;
+  }
+
+  .header__wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+
+  .header__left {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 1rem;
+  }
+
+  .user__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: $primary;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 3px solid $highlight;
+    transition: border 0.3s ease;
+    cursor: pointer;
+  }
+
+  .user__info:hover {
+    border: 3px solid $secondary;
+  }
+
+  .user__info button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-family: $bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .search__link__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .link__grid {
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  }
+
+  .search__link__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo__container {
+    width: auto;
+    min-height: 100%;
+    display: block;
+  }
+
+  .header__wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    flex-direction: row;
+  }
+
+  .wfp__logo {
+    width: 10vw;
+    padding-right: 8px;
+  }
+
+  .content__wrapper {
+    margin-top: 0;
+  }
+
+  .body__wrapper {
+    margin-top: 7vw;
+  }
+
+  .header__left {
+    justify-content: left;
+  }
+
+  .header__right {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .link__grid {
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  }
+
+  .wfp__logo {
+    width: 7vw;
+    height: 100%;
+    padding-right: 8px;
+  }
+
+  .body__wrapper {
+    margin-top: 3vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
+  }
+
+  .header__wrapper {
+    padding-left: 16vw;
+    padding-right: 16vw;
+    margin-top: 30px;
+  }
+
+  .content__wrapper {
+    margin-top: 2vw;
+  }
+
+  .header__right {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header__wrapper {
+    justify-content: space-between;
+    margin-top: 1.25vw;
+  }
+
+  .wfp__logo {
+    width: 88px;
+  }
+
+  .content__wrapper {
+    margin-top: 3vw;
+  }
+
+  .body__wrapper {
+    margin-top: 3vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .header__wrapper {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .body__wrapper {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+}

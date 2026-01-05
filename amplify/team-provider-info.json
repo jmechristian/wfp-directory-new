@@ -1,0 +1,62 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wfpdirectoryfront-dev-64216-authRole",
+      "UnauthRoleArn": "arn:aws:iam::864899843182:role/amplify-wfpdirectoryfront-dev-64216-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::864899843182:role/amplify-wfpdirectoryfront-dev-64216-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wfpdirectoryfront-dev-64216-deployment",
+      "UnauthRoleName": "amplify-wfpdirectoryfront-dev-64216-unauthRole",
+      "StackName": "amplify-wfpdirectoryfront-dev-64216",
+      "StackId": "arn:aws:cloudformation:us-east-1:864899843182:stack/amplify-wfpdirectoryfront-dev-64216/64c76b10-f75b-11ef-8215-0e42d26d685d",
+      "AmplifyAppId": "d38f6ak6he4tsu"
+    },
+    "categories": {
+      "auth": {
+        "wfpdirectoryfront693b5af2": {}
+      }
+    }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wfpdirectoryfront-staging-6bdb3-authRole",
+      "UnauthRoleArn": "arn:aws:iam::552673436980:role/amplify-wfpdirectoryfront-staging-6bdb3-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::552673436980:role/amplify-wfpdirectoryfront-staging-6bdb3-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wfpdirectoryfront-staging-6bdb3-deployment",
+      "UnauthRoleName": "amplify-wfpdirectoryfront-staging-6bdb3-unauthRole",
+      "StackName": "amplify-wfpdirectoryfront-staging-6bdb3",
+      "StackId": "arn:aws:cloudformation:us-east-1:552673436980:stack/amplify-wfpdirectoryfront-staging-6bdb3/a305cd60-ea38-11f0-a402-0e197c3315cb",
+      "AmplifyAppId": "d370w036llfdlf"
+    },
+    "categories": {
+      "auth": {
+        "wfpdirectoryfront693b5af2": {}
+      },
+      "api": {
+        "wfpdirectoryfront": {}
+      }
+    }
+  },
+  "new": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wfpdirectoryfront-new-12dd9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::864899843182:role/amplify-wfpdirectoryfront-new-12dd9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::864899843182:role/amplify-wfpdirectoryfront-new-12dd9-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wfpdirectoryfront-new-12dd9-deployment",
+      "UnauthRoleName": "amplify-wfpdirectoryfront-new-12dd9-unauthRole",
+      "StackName": "amplify-wfpdirectoryfront-new-12dd9",
+      "StackId": "arn:aws:cloudformation:us-east-1:864899843182:stack/amplify-wfpdirectoryfront-new-12dd9/08b71940-ea3c-11f0-baaa-12671d63f975",
+      "AmplifyAppId": "d38f6ak6he4tsu"
+    },
+    "categories": {
+      "auth": {
+        "wfpdirectoryfront693b5af2": {}
+      },
+      "api": {
+        "wfpdirectoryfront": {}
+      }
+    }
+  }
+}

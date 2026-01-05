@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "wfpdirectoryfront",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2027-01-05T13:41:08.552Z",
+      "keyDescription": "newstage"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authwfpdirectoryfront693b5af2"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}

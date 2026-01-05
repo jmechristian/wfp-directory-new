@@ -1,0 +1,436 @@
+/* Admin-only styling (scoped via CSS modules) */
+
+$primary: #27253d;
+$secondary: #7a97ac;
+$highlight: #aa794c;
+$light: #f6f6f6;
+
+.page {
+  min-height: 100vh;
+  background: $light;
+  padding: 40px 24px 48px;
+  color: $primary;
+  font-family: 'Gotham Book', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.shell {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.loginWrap {
+  min-height: calc(100vh - 96px);
+  display: grid;
+  place-items: center;
+}
+
+.loginCard {
+  width: min(560px, 100%);
+}
+
+.loginTitle {
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.loginHint {
+  color: $secondary;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.title {
+  font-family: 'Chiswick', system-ui, serif;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: $secondary;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid transparent;
+  background: $primary;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.btn:hover {
+  background: $highlight;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btnSecondary {
+  background: white;
+  color: $primary;
+  border-color: rgba(39, 37, 61, 0.18);
+}
+
+.btnSecondary:hover {
+  background: rgba(170, 121, 76, 0.08);
+  border-color: rgba(170, 121, 76, 0.5);
+}
+
+.btnDanger {
+  background: white;
+  color: #9b2c2c;
+  border-color: rgba(155, 44, 44, 0.25);
+}
+
+.btnDanger:hover {
+  background: rgba(155, 44, 44, 0.06);
+  border-color: rgba(155, 44, 44, 0.45);
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 16px;
+}
+
+.cardGridWide {
+  grid-template-columns: 420px 1fr;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(39, 37, 61, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(39, 37, 61, 0.06);
+  overflow: hidden;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(39, 37, 61, 0.08);
+}
+
+.cardTitle {
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardBody {
+  padding: 14px 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(39, 37, 61, 0.12);
+  border-radius: 12px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background: white;
+}
+
+.listItem:hover {
+  border-color: rgba(170, 121, 76, 0.45);
+  background: rgba(170, 121, 76, 0.06);
+}
+
+.listItemActive {
+  border-color: rgba(170, 121, 76, 0.8);
+  box-shadow: 0 0 0 3px rgba(170, 121, 76, 0.14);
+}
+
+.dragHandle {
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: rgba(39, 37, 61, 0.06);
+  color: rgba(39, 37, 61, 0.65);
+  font-size: 16px;
+  cursor: grab;
+  user-select: none;
+}
+
+.itemMain {
+  flex: 1;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-size: 14px;
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemMeta {
+  font-size: 12px;
+  color: $secondary;
+  margin-top: 3px;
+}
+
+.pill {
+  font-size: 12px;
+  color: $primary;
+  background: rgba(39, 37, 61, 0.06);
+  border: 1px solid rgba(39, 37, 61, 0.12);
+  padding: 2px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input, .select, .textarea {
+  width: 100%;
+  border: 1px solid rgba(39, 37, 61, 0.18);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+.textarea {
+  min-height: 84px;
+  resize: vertical;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+  border-color: rgba(170, 121, 76, 0.75);
+  box-shadow: 0 0 0 3px rgba(170, 121, 76, 0.14);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+.thead th {
+  text-align: left;
+  font-size: 12px;
+  color: $secondary;
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(39, 37, 61, 0.10);
+}
+
+.row {
+  border-bottom: 1px solid rgba(39, 37, 61, 0.06);
+}
+
+.row td {
+  padding: 10px;
+  font-size: 14px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.row:hover td {
+  background: rgba(170, 121, 76, 0.05);
+}
+
+.linkTitle {
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.linkUrl {
+  color: $secondary;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badgeNew {
+  background: rgba(170, 121, 76, 0.14);
+  border: 1px solid rgba(170, 121, 76, 0.4);
+  color: $primary;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.badgeUpdated {
+  background: rgba(122, 151, 172, 0.14);
+  border: 1px solid rgba(122, 151, 172, 0.4);
+  color: $primary;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.iconBtn {
+  width: 36px;
+  height: 36px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(39, 37, 61, 0.18);
+  background: white;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease, transform 120ms ease;
+}
+
+.iconBtn:hover {
+  background: rgba(170, 121, 76, 0.06);
+  border-color: rgba(170, 121, 76, 0.55);
+}
+
+.iconBtn:active {
+  transform: translateY(1px);
+}
+
+.iconBtnDanger {
+  border-color: rgba(155, 44, 44, 0.25);
+}
+
+.iconBtnDanger:hover {
+  background: rgba(155, 44, 44, 0.06);
+  border-color: rgba(155, 44, 44, 0.45);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  color: $primary;
+}
+
+.iconDanger {
+  color: #9b2c2c;
+}
+
+.error {
+  margin: 10px 0 0;
+  color: #9b2c2c;
+  font-size: 14px;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  z-index: 50;
+}
+
+.modal {
+  width: min(720px, 100%);
+  background: white;
+  border-radius: 18px;
+  border: 1px solid rgba(39, 37, 61, 0.12);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+
+.modalHeader {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(39, 37, 61, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.modalTitle {
+  font-family: 'Gotham Bold', system-ui, sans-serif;
+  font-size: 16px;
+}
+
+.modalBody {
+  padding: 14px 16px;
+}
+
+.modalFooter {
+  padding: 14px 16px;
+  border-top: 1px solid rgba(39, 37, 61, 0.08);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 980px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

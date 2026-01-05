@@ -1,0 +1,1205 @@
+[
+  {
+    "id": 11,
+    "attributes": {
+      "createdAt": "2022-01-18T01:29:15.991Z",
+      "updatedAt": "2023-08-15T15:40:17.708Z",
+      "publishedAt": "2022-01-18T01:29:16.931Z",
+      "name": "Company Information",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 91,
+            "attributes": {
+              "title": "Photographer List",
+              "url": "https://docs.google.com/document/d/1i72cCrHTQ-tXYWFhgXRHJb7xlzOGlI1GLIVMGFi7JmI/edit?usp=sharing",
+              "createdAt": "2023-03-30T15:17:16.695Z",
+              "updatedAt": "2023-04-17T14:43:07.428Z",
+              "publishedAt": "2023-03-30T15:17:18.693Z",
+              "description": "This is a list of photography providers.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-04-17"
+            }
+          },
+          {
+            "id": 25,
+            "attributes": {
+              "title": "WFP Agent Social Media Directory",
+              "url": "https://docs.google.com/spreadsheets/d/1t3GLqpXP8m2HgZOFc68QZSVPU-GEqTumS9zK6h3v9fI/edit#gid=0",
+              "createdAt": "2022-01-18T01:33:08.016Z",
+              "updatedAt": "2022-01-28T15:59:44.059Z",
+              "publishedAt": "2022-01-18T01:33:09.505Z",
+              "description": "This is a live Google Sheet with spaces for social media handles for all agents. Please update your handles so that Marketing can tag you social posts.",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 26,
+            "attributes": {
+              "title": "2025 Meeting Schedule",
+              "url": "https://www.dropbox.com/scl/fi/l3obw3rasxgxzhk36wzs2/2025-Meeting-Calendar.pdf?rlkey=xd53uljdurs8zibm3bddzwk2c&dl=0",
+              "createdAt": "2022-01-18T01:35:32.123Z",
+              "updatedAt": "2025-02-04T21:26:41.813Z",
+              "publishedAt": "2022-01-18T01:35:34.002Z",
+              "description": "Monthly calendar view of all weekly and monthly WFP office meetings.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-02-03"
+            }
+          },
+          {
+            "id": 69,
+            "attributes": {
+              "title": "Agent Services",
+              "url": "https://www.dropbox.com/scl/fi/ehclaabuddf6i39c642hy/240723_AgentServices.pdf?rlkey=bouhld38tfhupj6qf44hswqwk&dl=0",
+              "createdAt": "2022-04-12T21:12:31.704Z",
+              "updatedAt": "2024-07-24T15:16:03.125Z",
+              "publishedAt": "2022-04-12T21:12:33.317Z",
+              "description": "Agent services offered through WFP Corporate. ",
+              "new": true,
+              "updated": true,
+              "last_updated": "2024-07-25"
+            }
+          },
+          {
+            "id": 59,
+            "attributes": {
+              "title": "WFP Phone & Email Directory",
+              "url": "https://romantic-jepsen-9f9736.netlify.app/",
+              "createdAt": "2022-02-09T14:34:51.322Z",
+              "updatedAt": "2022-12-06T03:52:56.540Z",
+              "publishedAt": "2022-02-09T14:35:33.326Z",
+              "description": "Responsive web page directory of WFP phone numbers and email addresses.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-03-21"
+            }
+          },
+          {
+            "id": 100,
+            "attributes": {
+              "title": "Off Market Listing Gallery & Map",
+              "url": "https://www.wfp.com/offmarket",
+              "createdAt": "2024-02-13T14:21:01.495Z",
+              "updatedAt": "2025-03-09T17:02:43.030Z",
+              "publishedAt": "2024-02-14T12:55:22.687Z",
+              "description": "This Off Market Gallery has all of our current Off Market offerings with a property gallery and map view. Each listing has a property details page with photos and optional floor plans, video and 3D tours. ",
+              "new": true,
+              "updated": true,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 215,
+            "attributes": {
+              "title": "Compass Private Exclusives List",
+              "url": "https://docs.google.com/spreadsheets/d/106HgsI0HhdH-ih3gfkKVs67cLaXreP5uqaKF8M0kmKA/edit?exids=71471469%2C71471463&pli=1&gid=211487574#gid=211487574&fvid=1004950971",
+              "createdAt": "2025-03-03T18:38:48.904Z",
+              "updatedAt": "2025-03-09T17:02:04.930Z",
+              "publishedAt": "2025-03-03T18:38:51.458Z",
+              "description": "Important Note. You must be authorized through a Google account to access this sheet. When you click the link the first time, you will need to request access. This is a GoogleSheet with the latest list of all Compass CMV Private Exclusives. Each listing has a link to the Compass property details web page with photos and listing details.",
+              "new": true,
+              "updated": true,
+              "last_updated": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "attributes": {
+      "createdAt": "2022-01-18T01:29:27.934Z",
+      "updatedAt": "2022-01-18T01:29:30.496Z",
+      "publishedAt": "2022-01-18T01:29:30.489Z",
+      "name": "Advertising",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 102,
+            "attributes": {
+              "title": "2025 Print Ad PDF Tearsheets",
+              "url": "https://www.dropbox.com/scl/fo/9vy4a29m7l02358rev48r/ABm32OL-UTpxhkb8BEzV-_c?rlkey=ra1lzfz410zo9pywi20pa23z8&st=1g5kr3wy&dl=0",
+              "createdAt": "2024-02-28T18:55:13.661Z",
+              "updatedAt": "2025-03-28T15:23:37.827Z",
+              "publishedAt": "2024-02-28T18:55:16.347Z",
+              "description": "This DropBox directory has a folder for all 2024 publications, containing PDFs of the final advertisements.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-03-28"
+            }
+          },
+          {
+            "id": 380,
+            "attributes": {
+              "title": "Washington Post Spring Wrap 2025 - Flipbook",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/wfp_wwl_spring2025_flipbook/full-view.html",
+              "createdAt": "2025-04-16T21:16:24.195Z",
+              "updatedAt": "2025-10-09T15:35:58.086Z",
+              "publishedAt": "2025-04-16T21:16:56.335Z",
+              "description": "This is a link to the Washington Post 2025 Spring Wrap Flipbook presentation.",
+              "new": false,
+              "updated": false,
+              "last_updated": "2025-04-16"
+            }
+          },
+          {
+            "id": 546,
+            "attributes": {
+              "title": "Washington Post Fall Wrap 2025 - Flipbook",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/wfp_wwl_09-17-25_wrap",
+              "createdAt": "2025-10-09T15:35:24.159Z",
+              "updatedAt": "2025-10-09T15:35:30.561Z",
+              "publishedAt": "2025-10-09T15:35:30.554Z",
+              "description": "This is a link to the Washington Post 2025 Fall Wrap Flipbook presentation.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-09"
+            }
+          },
+          {
+            "id": 614,
+            "attributes": {
+              "title": "2026 Advertising Schedule",
+              "url": "https://drive.google.com/file/d/1ZCYXvNQvUnxEocc8ok7tG5WPCXpzzcHm/view?usp=sharing",
+              "createdAt": "2025-12-18T16:33:20.907Z",
+              "updatedAt": "2025-12-18T16:33:36.839Z",
+              "publishedAt": "2025-12-18T16:33:36.836Z",
+              "description": "View the 2026 Advertising Schedule here. To make reservations for your listings, please email the Ad Manager identified for your desired publication(s).",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-12-18"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 13,
+    "attributes": {
+      "createdAt": "2022-01-18T01:29:42.523Z",
+      "updatedAt": "2022-01-28T16:00:52.926Z",
+      "publishedAt": "2022-01-18T01:29:43.451Z",
+      "name": "Marketing",
+      "description": "Links to the latest updated brand guidelines, logos and other marketing materials.",
+      "links": {
+        "data": [
+          {
+            "id": 92,
+            "attributes": {
+              "title": "Broker Open Flyer Template",
+              "url": "https://www.dropbox.com/s/8g28216w7f47zc3/WFP%20Broker%20Open%20Flyer.docx?dl=0",
+              "createdAt": "2023-04-04T15:39:21.756Z",
+              "updatedAt": "2024-05-15T14:00:25.413Z",
+              "publishedAt": "2023-04-04T15:39:23.934Z",
+              "description": "MS Word template for new listing broker open announcement flyer.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2023-04-04"
+            }
+          },
+          {
+            "id": 30,
+            "attributes": {
+              "title": "Brand Standards Guide - Online Booklet",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/wfp-brand-guide-2022/full-view.html",
+              "createdAt": "2022-01-18T01:37:24.166Z",
+              "updatedAt": "2022-12-06T03:55:53.057Z",
+              "publishedAt": "2022-01-18T01:37:26.304Z",
+              "description": "This document has everything you need to know to follow WFP standards for marketing: colors, logo use, fonts , social templates and more. This is an online viewable booklet.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-06-02"
+            }
+          },
+          {
+            "id": 52,
+            "attributes": {
+              "title": "Brand Logos",
+              "url": "https://www.dropbox.com/sh/3pjqemlh9yqsxc2/AADa3AgZD5c2OfWvtasARVDga?dl=0",
+              "createdAt": "2022-01-26T22:33:30.947Z",
+              "updatedAt": "2022-03-20T15:22:35.233Z",
+              "publishedAt": "2022-01-26T22:33:31.879Z",
+              "description": "EPS brand logos for print as well as PNG for digital. ",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 55,
+            "attributes": {
+              "title": "Brand Standards Guide - PDF",
+              "url": "https://www.dropbox.com/s/z2t6fvcss3jfoeo/220519_WFPBrandGuide_jc1.pdf?dl=0",
+              "createdAt": "2022-01-28T18:29:53.064Z",
+              "updatedAt": "2022-12-06T03:55:24.270Z",
+              "publishedAt": "2022-01-28T18:29:54.172Z",
+              "description": "This is a horizontal, single page printable version of the Brand Standards Guide.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-06-02"
+            }
+          },
+          {
+            "id": 51,
+            "attributes": {
+              "title": "Brand Fonts",
+              "url": "https://www.dropbox.com/sh/rsy0azfqurpzj8y/AABNJLzrdszEmphBRmZG99qKa?dl=0",
+              "createdAt": "2022-01-26T22:31:31.454Z",
+              "updatedAt": "2022-12-06T03:54:59.294Z",
+              "publishedAt": "2022-01-26T22:31:33.598Z",
+              "description": "Chiswick + Gotham",
+              "new": false,
+              "updated": false,
+              "last_updated": "2022-03-20"
+            }
+          },
+          {
+            "id": 53,
+            "attributes": {
+              "title": "Brand Stationary",
+              "url": "https://www.dropbox.com/sh/f8yvs76m7hihbti/AADfk4zDAnNcJ9nskSHraj0Fa?dl=0",
+              "createdAt": "2022-01-26T22:35:47.853Z",
+              "updatedAt": "2022-03-20T15:27:18.434Z",
+              "publishedAt": "2022-01-26T22:35:48.827Z",
+              "description": "Letterhead and notecard templates. ",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 83,
+            "attributes": {
+              "title": "Embassy Directory / Mailing List",
+              "url": "https://www.dropbox.com/s/k043k2ovvlvc5fw/Embassy%20Directory.xlsx?dl=0",
+              "createdAt": "2022-09-01T17:11:32.129Z",
+              "updatedAt": "2023-03-10T15:07:18.230Z",
+              "publishedAt": "2022-09-01T17:12:12.559Z",
+              "description": null,
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-09-02"
+            }
+          },
+          {
+            "id": 114,
+            "attributes": {
+              "title": "2024 Luxury Contract Charts",
+              "url": "https://www.dropbox.com/scl/fi/gf3cbc58k49nfyjisxblv/01.16.25_LuxuryContracts_Chart_HorVer_pk.pdf?rlkey=at8wslq3y9gd7vltwbr43gfix&st=3960mv8s&dl=0",
+              "createdAt": "2024-05-15T13:59:05.132Z",
+              "updatedAt": "2025-07-18T18:27:40.814Z",
+              "publishedAt": "2024-05-15T13:59:36.809Z",
+              "description": "WFP leads 2024 Luxury Contracts chart in PDF format for in-house printing, listing presentations or email.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-07-18"
+            }
+          },
+          {
+            "id": 115,
+            "attributes": {
+              "title": "WFP Marketing & Tech Website",
+              "url": "https://tunny-finch-8kdb.squarespace.com",
+              "createdAt": "2024-06-11T16:54:40.733Z",
+              "updatedAt": "2025-10-21T15:07:56.885Z",
+              "publishedAt": "2024-06-11T16:54:42.710Z",
+              "description": "Our new internal website where you can find detailed information on our marketing and technology apps and platforms.\n\nPassword is: !!WFPMarketing##2025",
+              "new": true,
+              "updated": true,
+              "last_updated": "2024-06-11"
+            }
+          },
+          {
+            "id": 116,
+            "attributes": {
+              "title": "New 8-Page Buyer & Seller Brochures",
+              "url": "https://docs.google.com/document/d/17Vu4yqMcZHBUutCjDBQu6XjwGLvTbFAfh15e6NIRjjo/edit",
+              "createdAt": "2024-09-18T15:10:58.769Z",
+              "updatedAt": "2024-09-18T15:11:53.382Z",
+              "publishedAt": "2024-09-18T15:11:53.379Z",
+              "description": "The linked document has details, PDF and Flipbook links and instructions on how to order bound and printed versions and add optional Agent/Team logo and photo customization.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2024-09-18"
+            }
+          },
+          {
+            "id": 413,
+            "attributes": {
+              "title": "2025 Q1 - Luxury Contract Chart",
+              "url": "https://www.dropbox.com/scl/fi/3318o1n1f2wqi1nxyn050/2025-Q1LuxuryListingsChart-Vertical.pdf?rlkey=tjmnb6hhuwc8lghgb04ulwj1t&e=1&st=9q3nw1db&dl=0",
+              "createdAt": "2025-04-25T20:20:15.214Z",
+              "updatedAt": "2025-10-09T15:53:19.093Z",
+              "publishedAt": "2025-04-25T20:20:18.244Z",
+              "description": null,
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-04-25"
+            }
+          },
+          {
+            "id": 547,
+            "attributes": {
+              "title": "2025 Q3 - Luxury Contract Chart",
+              "url": "https://www.dropbox.com/scl/fi/9j99p90e51cl1kysao0ze/2025-Jan-Oct-Capital-Region-1M-15M.pdf?rlkey=bv3tc6cjo4r9zf31w41rhr1xu&st=mtup5313&dl=0",
+              "createdAt": "2025-10-09T15:52:34.349Z",
+              "updatedAt": "2025-10-09T15:52:37.962Z",
+              "publishedAt": "2025-10-09T15:52:37.958Z",
+              "description": null,
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-09"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 14,
+    "attributes": {
+      "createdAt": "2022-01-18T01:30:06.810Z",
+      "updatedAt": "2023-03-14T13:33:36.626Z",
+      "publishedAt": "2022-01-18T01:30:07.751Z",
+      "name": "WFP Company Overview / Listing Presentations",
+      "description": "The links below are derived from the latest Company Overview book, updated with the latest year end 2022 statistics and are provided in versions for online viewing, emailing and in-office printing.",
+      "links": {
+        "data": [
+          {
+            "id": 447,
+            "attributes": {
+              "title": "WFP Company Overview - FlipBook - Vertical",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/2025-company-overview-vertical/full-view.html",
+              "createdAt": "2025-05-14T10:07:45.462Z",
+              "updatedAt": "2025-05-14T10:12:58.500Z",
+              "publishedAt": "2025-05-14T10:07:48.168Z",
+              "description": "This is a vertical, FlipBook version of the WFP Company Overview booklet with the latest 2024 year end statistics and other updates throughout.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-05-14"
+            }
+          },
+          {
+            "id": 34,
+            "attributes": {
+              "title": "WFP Company Overview - FlipBook ",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/company-overview-2025-horizontal/full-view.html",
+              "createdAt": "2022-01-18T01:39:47.472Z",
+              "updatedAt": "2025-03-28T15:25:46.996Z",
+              "publishedAt": "2022-01-18T01:39:49.165Z",
+              "description": "Online slideshow with page turn function that can be emailed or used as a presentation. You can also download PDF or print from this screen.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-28"
+            }
+          },
+          {
+            "id": 35,
+            "attributes": {
+              "title": "WFP Company Overview - NxtBook",
+              "url": "https://read.nxtbook.com/wfp/company_overview/company_overview_2022/index.html",
+              "createdAt": "2022-01-18T01:40:34.176Z",
+              "updatedAt": "2025-03-28T15:26:41.041Z",
+              "publishedAt": "2022-01-18T01:40:35.855Z",
+              "description": "Fully responsive to mobile and can be sent to clients online.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-28"
+            }
+          },
+          {
+            "id": 56,
+            "attributes": {
+              "title": "WFP Company Overview - PDF - Vertical",
+              "url": "https://www.dropbox.com/scl/fi/5o3gifauxid8z87hjfyhv/2025_CompanyOverview_OFFICE.PRINTING.pdf?rlkey=0wnyn3cmq073jd4z6wvtxe8hf&e=1&st=5e30oybk&dl=0",
+              "createdAt": "2022-01-31T13:37:25.826Z",
+              "updatedAt": "2025-05-14T10:04:54.784Z",
+              "publishedAt": "2022-01-31T13:43:01.018Z",
+              "description": "This is a vertical, single page printable version of the WFP Company Overview slide deck with the latest 2024 year end statistics and other updates throughout.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-05-14"
+            }
+          },
+          {
+            "id": 57,
+            "attributes": {
+              "title": "WFP Company Overview - PowerPoint Slides",
+              "url": "https://www.dropbox.com/scl/fi/ljd3guxt5789i8fri4zr0/240808_CompanyOverview_25Y_PowerPoint_ss1.pptx?rlkey=5vg8v34myem0c4yy4tvjdlbqj&dl=0",
+              "createdAt": "2022-01-31T13:41:41.804Z",
+              "updatedAt": "2025-04-02T09:40:37.229Z",
+              "publishedAt": "2023-03-14T15:21:22.989Z",
+              "description": "WFP Company Overview slide deck in PowerPoint format with the latest 2023 year end statistics.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-27"
+            }
+          },
+          {
+            "id": 58,
+            "attributes": {
+              "title": "WFP Company Overview - PDF - Horizontal",
+              "url": "https://www.dropbox.com/scl/fi/vlwd5fm30wlv2sbnfak65/CompanyOverview_DigitalPrint_Horizontal_03.10.25.pdf?rlkey=avsxpbuxugy6czkh40xfswko2&e=1&dl=0",
+              "createdAt": "2022-01-31T13:46:34.473Z",
+              "updatedAt": "2025-03-28T15:30:59.219Z",
+              "publishedAt": "2022-01-31T13:46:35.883Z",
+              "description": "This is a horizontal, single page version of the WFP Company Overview slide deck with the latest  year end statistics. This PDF can also be emailed.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-28"
+            }
+          },
+          {
+            "id": 68,
+            "attributes": {
+              "title": "WFP Market Leader Sales Chart Set - Vertical",
+              "url": "https://www.dropbox.com/scl/fi/x50o30hf8jhaizrn7sm3k/2025-LeadingTheLuxMarket-SalesChart.pdf?rlkey=5b9ar9fprlidgs1hl0e5u3pgv&dl=0",
+              "createdAt": "2022-04-08T13:02:47.302Z",
+              "updatedAt": "2025-04-02T09:38:27.148Z",
+              "publishedAt": "2022-04-08T13:04:43.577Z",
+              "description": "Market leadership charts with (7) versions covering DC and Capitol Region and multiple price points.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-04-02"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 15,
+    "attributes": {
+      "createdAt": "2022-01-18T01:30:22.531Z",
+      "updatedAt": "2022-01-28T15:36:17.950Z",
+      "publishedAt": "2022-01-18T01:30:24.702Z",
+      "name": "WFP Buyer's Guide",
+      "description": "Digital versions of the WFP Buyer's Guide book for use online and in mobile responsive format.",
+      "links": {
+        "data": [
+          {
+            "id": 36,
+            "attributes": {
+              "title": "WFP Buyer's Guide - PDF",
+              "url": "https://www.dropbox.com/scl/fi/zaijtx0iuva26avimu4nk/02-05-25_WFP_BuyersGuide.pdf?rlkey=pvvfi8e0mtc6agko52fjoeq6h&dl=0",
+              "createdAt": "2022-01-18T04:47:03.932Z",
+              "updatedAt": "2025-04-02T09:39:49.121Z",
+              "publishedAt": "2022-01-18T04:47:05.736Z",
+              "description": "This is a vertical, single page printable version of the Buyer's Guide book.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-04-02"
+            }
+          },
+          {
+            "id": 62,
+            "attributes": {
+              "title": "Digital Buyer's Guide",
+              "url": "https://wfp-buyersguide-next.vercel.app/",
+              "createdAt": "2022-03-15T23:47:50.404Z",
+              "updatedAt": "2025-03-13T09:17:44.791Z",
+              "publishedAt": "2022-03-15T23:48:21.181Z",
+              "description": "Digital and responsive WFP Buyer's Guide suitable for viewing on phones, tablets and computers.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-03-13"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 17,
+    "attributes": {
+      "createdAt": "2022-01-18T01:30:49.097Z",
+      "updatedAt": "2022-01-18T01:30:49.979Z",
+      "publishedAt": "2022-01-18T01:30:49.969Z",
+      "name": "Social Media",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 39,
+            "attributes": {
+              "title": "Social Media Images - DropBox Directory",
+              "url": "https://www.dropbox.com/scl/fo/aci0k9vnp3z95ernymalg/AL4KU2B16C2M2Ap17AokQns?rlkey=5ruwx64y1zwzo8egtea9pjz4f&st=hokorhfu&dl=0",
+              "createdAt": "2022-01-18T04:57:07.873Z",
+              "updatedAt": "2025-12-03T16:04:07.877Z",
+              "publishedAt": "2022-01-18T04:57:08.876Z",
+              "description": "A DropBox directory of images sized and formatted for Instagram, Facebook, Twitter.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-11-24"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 18,
+    "attributes": {
+      "createdAt": "2022-01-18T01:31:00.054Z",
+      "updatedAt": "2022-07-27T19:11:18.255Z",
+      "publishedAt": "2022-01-18T01:31:02.025Z",
+      "name": "WFP Newsletter",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 182,
+            "attributes": {
+              "title": "2025 - 01 - January Winter Newsletter",
+              "url": "https://mailchi.mp/wfp/q3-2024-newsletter-14762240?e=f1e8b88962",
+              "createdAt": "2025-01-27T12:12:56.164Z",
+              "updatedAt": "2025-04-16T21:20:52.137Z",
+              "publishedAt": "2025-01-27T12:12:58.633Z",
+              "description": "WFP digital newsletter for Q1 2024. Originally distributed by email, this URL can be viewed online or forwarded to clients.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-01-27"
+            }
+          },
+          {
+            "id": 381,
+            "attributes": {
+              "title": "2025 - 04 - April Spring Newsletter",
+              "url": "https://mailchi.mp/wfp/q3-2024-newsletter-14763592?e=f2ebb274dd",
+              "createdAt": "2025-04-16T21:19:04.099Z",
+              "updatedAt": "2025-10-09T15:26:54.835Z",
+              "publishedAt": "2025-04-16T21:19:19.403Z",
+              "description": "WFP digital newsletter for Q2 2025. Originally distributed by email, this URL can be viewed online or forwarded to clients.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-04-16"
+            }
+          },
+          {
+            "id": 545,
+            "attributes": {
+              "title": "2025 - 10 - October Autumn Newsletter",
+              "url": "https://mailchi.mp/wfp/q3-2024-newsletter-14766140?e=2798eeba55",
+              "createdAt": "2025-10-09T15:26:13.444Z",
+              "updatedAt": "2025-10-09T15:26:24.852Z",
+              "publishedAt": "2025-10-09T15:26:24.843Z",
+              "description": "WFP digital newsletter for Autumn 2025. Originally distributed by email, this URL can be viewed online or forwarded to clients.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-09"
+            }
+          },
+          {
+            "id": 611,
+            "attributes": {
+              "title": "2025 - 07 - July Summer Newsletter",
+              "url": "https://mailchi.mp/wfp/q3-2024-newsletter-14764668?e=f2ebb274dd",
+              "createdAt": "2025-12-03T16:00:57.183Z",
+              "updatedAt": "2025-12-03T16:01:15.376Z",
+              "publishedAt": "2025-12-03T16:01:15.372Z",
+              "description": "WFP digital newsletter for Summer 2025. Originally distributed by email, this URL can be viewed online or forwarded to clients.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-07-07"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 19,
+    "attributes": {
+      "createdAt": "2022-01-18T01:31:21.922Z",
+      "updatedAt": "2022-01-18T01:31:23.433Z",
+      "publishedAt": "2022-01-18T01:31:23.429Z",
+      "name": "Business Documents",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 40,
+            "attributes": {
+              "title": "Forms - DropBox",
+              "url": "https://www.dropbox.com/sh/t90nqeghm3h09x6/AACcGmGTfJvomAt5hspe_0PDa?dl=0",
+              "createdAt": "2022-01-18T04:57:41.796Z",
+              "updatedAt": "2023-06-21T13:21:26.584Z",
+              "publishedAt": "2022-01-18T04:57:42.717Z",
+              "description": "WFP DropBox forms directory with the latest updated forms for all uses. Note: You must login to DropBox from dashboard first before accessing this link. ",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "attributes": {
+      "createdAt": "2022-01-18T01:31:33.459Z",
+      "updatedAt": "2022-01-18T01:31:34.939Z",
+      "publishedAt": "2022-01-18T01:31:34.935Z",
+      "name": "Vendors",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 105,
+            "attributes": {
+              "title": "Photographer Reference List",
+              "url": "https://docs.google.com/document/d/1i72cCrHTQ-tXYWFhgXRHJb7xlzOGlI1GLIVMGFi7JmI/edit",
+              "createdAt": "2024-04-03T09:35:40.521Z",
+              "updatedAt": "2024-04-03T09:35:50.392Z",
+              "publishedAt": "2024-04-03T09:35:50.388Z",
+              "description": "List of reviewed photography vendors with services offered, turnaround times and examples of WFP shoots.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2024-04-03"
+            }
+          },
+          {
+            "id": 41,
+            "attributes": {
+              "title": "Settlement Trust - Website",
+              "url": "https://www.settlementtrustco.com",
+              "createdAt": "2022-01-18T04:58:09.415Z",
+              "updatedAt": "2022-01-18T04:58:10.287Z",
+              "publishedAt": "2022-01-18T04:58:10.285Z",
+              "description": null,
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 42,
+            "attributes": {
+              "title": "Settlement Trust - Contacts",
+              "url": "https://www.dropbox.com/s/unja6r8j8gwuk1y/Settlement%20Trust%20Contact%20List.pdf?dl=0",
+              "createdAt": "2022-01-18T04:58:33.196Z",
+              "updatedAt": "2023-02-23T21:19:24.481Z",
+              "publishedAt": "2022-01-18T04:58:34.057Z",
+              "description": null,
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 43,
+            "attributes": {
+              "title": "Settlement Trust - Qualia Login",
+              "url": "https://connect.qualia.com/signin",
+              "createdAt": "2022-01-18T04:59:04.747Z",
+              "updatedAt": "2022-01-18T04:59:05.682Z",
+              "publishedAt": "2022-01-18T04:59:05.672Z",
+              "description": null,
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 21,
+    "attributes": {
+      "createdAt": "2022-04-05T11:35:15.005Z",
+      "updatedAt": "2022-04-05T11:39:28.598Z",
+      "publishedAt": "2022-04-05T11:39:05.575Z",
+      "name": "Application Support",
+      "description": "",
+      "links": {
+        "data": [
+          {
+            "id": 88,
+            "attributes": {
+              "title": "Marq Training Video Catalog",
+              "url": "https://wfp187.zendesk.com/hc/en-us/articles/13987707535629-Marq-Training-Video-Catalog",
+              "createdAt": "2023-03-14T16:20:16.764Z",
+              "updatedAt": "2023-06-17T12:38:44.282Z",
+              "publishedAt": "2023-03-14T16:20:19.452Z",
+              "description": "This support article contains links to training videos covering the Marq interface, uploading images, creating brochures, creating direct mail cards, printing through XPressDocs and sending cards to My Marketing Matters for printing and mailing.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-03-14"
+            }
+          },
+          {
+            "id": 89,
+            "attributes": {
+              "title": "Rela Training Webinar Recording",
+              "url": "https://vimeo.com/805671308/de02e20eed",
+              "createdAt": "2023-03-20T14:49:08.337Z",
+              "updatedAt": "2023-03-20T14:49:57.612Z",
+              "publishedAt": "2023-03-20T14:49:57.603Z",
+              "description": "This video is a recording of the Rela training webinar.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2023-03-20"
+            }
+          },
+          {
+            "id": 93,
+            "attributes": {
+              "title": "Marq Tech Tips Videos",
+              "url": "https://wfp187.zendesk.com/hc/en-us/articles/15270596158861-Marq-Video-Tips-Updates",
+              "createdAt": "2023-04-27T12:48:25.055Z",
+              "updatedAt": "2023-04-27T12:49:06.834Z",
+              "publishedAt": "2023-04-27T12:48:27.512Z",
+              "description": "This support article contains links to videos covering a range of tech tips and techniques for Marq users.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-04-27"
+            }
+          },
+          {
+            "id": 94,
+            "attributes": {
+              "title": "Cloud CMA Support Page",
+              "url": "https://wfp187.zendesk.com/hc/en-us/categories/4421729515149-CloudCMA",
+              "createdAt": "2023-06-01T15:12:58.656Z",
+              "updatedAt": "2023-06-01T15:13:08.247Z",
+              "publishedAt": "2023-06-01T15:13:08.243Z",
+              "description": "Cloud CMA support articles and quick start videos located in the WFP Support Center.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-06-01"
+            }
+          },
+          {
+            "id": 95,
+            "attributes": {
+              "title": "Non Emergency IT Request Form",
+              "url": "https://forms.gle/wpH7HLcQDsZSX5GP9",
+              "createdAt": "2023-06-16T13:44:05.163Z",
+              "updatedAt": "2023-06-16T13:44:07.544Z",
+              "publishedAt": "2023-06-16T13:44:07.540Z",
+              "description": "Use this form to request scheduling your IT support task request.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-06-16"
+            }
+          },
+          {
+            "id": 96,
+            "attributes": {
+              "title": "Rela to BrightMLS Media Sync Video",
+              "url": "https://vimeo.com/839042606/e8f07b7d49?share=copy",
+              "createdAt": "2023-06-23T15:12:54.403Z",
+              "updatedAt": "2023-06-23T15:24:52.726Z",
+              "publishedAt": "2023-06-23T15:12:56.574Z",
+              "description": "This 2 min video will show you how to push photos, captions, floor plans, property websites and 3D tours from Rela to BrightMLS.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-06-23"
+            }
+          },
+          {
+            "id": 97,
+            "attributes": {
+              "title": "Rela To Marq High Resolution Image Feed",
+              "url": "https://vimeo.com/839050187/2a2c6346c1?share=copy",
+              "createdAt": "2023-06-23T15:18:18.524Z",
+              "updatedAt": "2023-06-23T15:21:54.398Z",
+              "publishedAt": "2023-06-23T15:18:21.118Z",
+              "description": "This video shows how the high resolution image feed works from Rela to Marq.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-06-23"
+            }
+          },
+          {
+            "id": 98,
+            "attributes": {
+              "title": "SpamTitan Support Article & Videos",
+              "url": "https://wfp187.zendesk.com/hc/en-us/articles/17524696865549-SpamTitan-Account-Access-Quarantine-Report",
+              "createdAt": "2023-07-19T15:03:39.149Z",
+              "updatedAt": "2023-07-19T15:03:40.539Z",
+              "publishedAt": "2023-07-19T15:03:40.535Z",
+              "description": "This support article contains short videos and instructions to access and manage your SpamTitan quarantine reports.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2023-07-19"
+            }
+          },
+          {
+            "id": 65,
+            "attributes": {
+              "title": "Cloud CMA - Web Page Embed Code",
+              "url": "https://docs.google.com/document/d/1VgS6AcMQHyRLmkEVQipxQVBWMesVZL_H_NLnZ-4L-gU/edit?usp=sharing",
+              "createdAt": "2022-04-05T11:37:13.189Z",
+              "updatedAt": "2023-03-10T15:15:12.275Z",
+              "publishedAt": "2022-04-05T11:38:20.916Z",
+              "description": "This document contains html code to be used to embed web pages into Cloud CMA.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-04-05"
+            }
+          },
+          {
+            "id": 67,
+            "attributes": {
+              "title": "WFP Support Center",
+              "url": "https://wfp187.zendesk.com/hc/en-us",
+              "createdAt": "2022-04-07T13:18:39.920Z",
+              "updatedAt": "2023-03-14T15:27:25.348Z",
+              "publishedAt": "2022-04-07T13:18:44.137Z",
+              "description": "Our internal WFP Zendesk support center where you will find support articles and videos for our applications.",
+              "new": true,
+              "updated": false,
+              "last_updated": "2023-03-14"
+            }
+          },
+          {
+            "id": 74,
+            "attributes": {
+              "title": "HighNote - Presentation Outline Excel Template",
+              "url": "https://www.dropbox.com/scl/fi/u6a38dhx9x1gvp6a2lf8w/HighNote-Content-Table-Example.xlsx?rlkey=32uvwr86kqmho65kd8vey1tho&st=5wl132ip&dl=0",
+              "createdAt": "2022-06-22T19:04:02.717Z",
+              "updatedAt": "2024-07-18T16:21:16.741Z",
+              "publishedAt": "2022-06-22T19:04:24.819Z",
+              "description": "This Excel table is an outline of a completed HighNote presentation that you can download and edit. Enter the description for each HighNote panel along with the source of your content, the panel title and description. This will make the creation of your HighNote presentation faster and easier.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2024-07-18"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 22,
+    "attributes": {
+      "createdAt": "2022-05-17T19:43:38.466Z",
+      "updatedAt": "2022-05-17T19:43:39.460Z",
+      "publishedAt": "2022-05-17T19:43:39.457Z",
+      "name": "Agent Empowerment Materials",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 63,
+            "attributes": {
+              "title": "Buyer Offer Cover Form",
+              "url": "https://www.dropbox.com/s/7khf0dnpe7gibin/WFP%20Buyer%20Offer%20Cover%20Sheet%20V3.pdf?dl=0",
+              "createdAt": "2022-03-15T23:52:13.407Z",
+              "updatedAt": "2023-03-10T15:04:47.066Z",
+              "publishedAt": "2022-03-15T23:52:14.769Z",
+              "description": "WFP branded fillable PDF form that provides a visual summary of all key offer to purchase terms.\n",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-05-19"
+            }
+          },
+          {
+            "id": 71,
+            "attributes": {
+              "title": "Agent Empowerment Templates DropBox",
+              "url": "https://www.dropbox.com/sh/mpick55gphlxqh5/AAA7vt-1qrcBPuQRNRuo5l5ya?dl=0",
+              "createdAt": "2022-05-17T19:45:03.015Z",
+              "updatedAt": "2023-03-10T15:05:07.599Z",
+              "publishedAt": "2022-05-17T19:45:03.962Z",
+              "description": "There are (6) InDesign print templates contained here that can be customized and updated by any designer: Agent Intro, Sales Summary, Sales Gallery, Testimonials and Client List. Each folder contains Samples and Templates. ",
+              "new": false,
+              "updated": true,
+              "last_updated": "2022-05-25"
+            }
+          },
+          {
+            "id": 72,
+            "attributes": {
+              "title": "Agent Pricing Tour Excel Model",
+              "url": "https://www.dropbox.com/s/0g7gxamk5w0wqzh/Property_Valuation_Chart_jc1.xlsx?dl=0 ",
+              "createdAt": "2022-05-17T19:46:19.530Z",
+              "updatedAt": "2023-03-10T15:05:17.431Z",
+              "publishedAt": "2022-05-17T19:48:11.918Z",
+              "description": "This updated excel model allow entry of pricing opinions from up to (9) colleagues; calculates average and median pricing and generates a branded, printable report with dynamic chart.\n",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          },
+          {
+            "id": 73,
+            "attributes": {
+              "title": "Agent Marketing Report Cover",
+              "url": "https://www.dropbox.com/s/h16clu6gioopi2v/Sample_MarketingReportCoverTEMPLATE_jc2.pdf?dl=0",
+              "createdAt": "2022-05-17T19:47:55.828Z",
+              "updatedAt": "2023-03-10T15:06:37.390Z",
+              "publishedAt": "2022-05-17T19:47:56.812Z",
+              "description": "This is a branded, fillable PDF to create a marketing activity report cover for Sellers.",
+              "new": false,
+              "updated": false,
+              "last_updated": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 23,
+    "attributes": {
+      "createdAt": "2023-07-19T16:59:32.773Z",
+      "updatedAt": "2023-07-19T16:59:37.111Z",
+      "publishedAt": "2023-07-19T16:59:37.108Z",
+      "name": "Private Placement & Coming Soon Listings",
+      "description": null,
+      "links": {
+        "data": []
+      }
+    }
+  },
+  {
+    "id": 27,
+    "attributes": {
+      "createdAt": "2025-03-10T11:40:15.716Z",
+      "updatedAt": "2025-03-12T10:33:40.650Z",
+      "publishedAt": "2025-03-10T11:40:17.301Z",
+      "name": "WFP Concierge Program",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 248,
+            "attributes": {
+              "title": "WFP Concierge Login",
+              "url": "https://wfpconcierge.notablefi.com/",
+              "createdAt": "2025-03-10T11:41:55.881Z",
+              "updatedAt": "2025-03-12T09:03:04.148Z",
+              "publishedAt": "2025-03-10T11:41:57.251Z",
+              "description": "This is the location for Clients to login or sign up for WFP Concierge.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-12"
+            }
+          },
+          {
+            "id": 281,
+            "attributes": {
+              "title": "WFP Concierge - Agent Training Slides - Flipbook",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/wfp-concierge-agent-training-slides/full-view.html",
+              "createdAt": "2025-03-12T09:00:29.113Z",
+              "updatedAt": "2025-03-12T09:06:46.079Z",
+              "publishedAt": "2025-03-12T09:00:30.721Z",
+              "description": "Training slides for the WFP Concierge Program in digital flipboook format.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-12"
+            }
+          },
+          {
+            "id": 282,
+            "attributes": {
+              "title": "WFP Concierge - Agent Training Slides - PDF",
+              "url": "https://www.dropbox.com/scl/fi/bayl3oo0wjrno802l9kqq/WFP-Concierge-Agent-Training-Slides.pdf?rlkey=z4uqp2jcrgi1k5dtrembptkxt&dl=0",
+              "createdAt": "2025-03-12T09:02:11.764Z",
+              "updatedAt": "2025-03-12T09:06:21.722Z",
+              "publishedAt": "2025-03-12T09:02:13.226Z",
+              "description": "Training slides for the WFP Concierge Program in PDF format.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-03-12"
+            }
+          },
+          {
+            "id": 283,
+            "attributes": {
+              "title": "WFP Concierge - Social Media Images",
+              "url": "https://www.dropbox.com/scl/fo/zinapvax346hyo6m41e1m/AIYG-nMkdo5MZM9xhQXxOmo?rlkey=nxl3l7aoz0tdppaxe27g5zw52&dl=0",
+              "createdAt": "2025-03-12T09:05:51.781Z",
+              "updatedAt": "2025-04-15T22:11:50.683Z",
+              "publishedAt": "2025-03-12T09:05:53.208Z",
+              "description": "This is a DropBox archive of all social media images for WFP Concierge.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-04-16"
+            }
+          },
+          {
+            "id": 284,
+            "attributes": {
+              "title": "WFP Concierge - Print Example PDFs",
+              "url": "https://www.dropbox.com/scl/fo/5dzkbzuz9u0h1eot3703b/AJvxnu_YorfkfCans8vQz4U?rlkey=4zuvemd6jvb9jaos9wbryemnt&dl=0",
+              "createdAt": "2025-03-12T09:14:03.605Z",
+              "updatedAt": "2025-04-15T12:02:53.503Z",
+              "publishedAt": "2025-03-12T09:14:05.193Z",
+              "description": "These PDFs are examples of customizable print materials for Agent marketing. These materials will be added to Marq as self service templates but for now, send an email to support@wfp.com and we will produce them for you.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-04-15"
+            }
+          },
+          {
+            "id": 347,
+            "attributes": {
+              "title": "WFP Concierge Client Application URL",
+              "url": "https://wfpconcierge.notablefi.com/apply",
+              "createdAt": "2025-04-15T10:22:28.101Z",
+              "updatedAt": "2025-04-15T22:12:53.287Z",
+              "publishedAt": "2025-04-15T10:22:29.820Z",
+              "description": "Copy this URL, https://wfpconcierge.notablefi.com/apply, or click the title to open the application in a browser to forward to your Clients.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-04-15"
+            }
+          },
+          {
+            "id": 446,
+            "attributes": {
+              "title": "WFP Concierge Program - Intro Flyers",
+              "url": "https://www.dropbox.com/scl/fo/pryi3el7mm0t03nwxqrx7/AO5zjP90QRgc9BsA9J9tssY?rlkey=yalqdcdnml52c6m8ljwfkamco&dl=0",
+              "createdAt": "2025-05-13T10:10:33.891Z",
+              "updatedAt": "2025-05-13T10:10:37.155Z",
+              "publishedAt": "2025-05-13T10:10:37.146Z",
+              "description": "This DropBox folder contains both a one-page and a two-page WFP Concierge Program intro flyer in PDF format.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-05-13"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 60,
+    "attributes": {
+      "createdAt": "2025-07-14T19:07:10.205Z",
+      "updatedAt": "2025-10-27T11:35:43.255Z",
+      "publishedAt": "2025-07-14T19:07:12.972Z",
+      "name": "New Technology & Marketing Platform",
+      "description": null,
+      "links": {
+        "data": [
+          {
+            "id": 479,
+            "attributes": {
+              "title": "WFP Tech Platform Training Resources",
+              "url": "https://docs.google.com/document/d/1SWrzYMThKoFk3uTSS_pTkoTAFv2hvfpLuy3EbMT3xio/edit?tab=t.0",
+              "createdAt": "2025-07-14T19:18:25.809Z",
+              "updatedAt": "2025-07-17T16:46:48.938Z",
+              "publishedAt": "2025-07-14T19:18:28.265Z",
+              "description": "This GoogleDoc has all training session dates, times and meeting links; slide decks and session recordings; and follow up support articles and videos.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-07-14"
+            }
+          },
+          {
+            "id": 481,
+            "attributes": {
+              "title": "CRM - Sample Import CSV File",
+              "url": "https://www.dropbox.com/scl/fi/nij646uk8ed6an2ww2qvs/Compass-CRM-Sample-CSV.csv?rlkey=0bwhdp5fqollxn24r37icrpx6&dl=0",
+              "createdAt": "2025-07-19T10:34:20.838Z",
+              "updatedAt": "2025-10-27T11:37:17.209Z",
+              "publishedAt": "2025-07-19T10:34:25.722Z",
+              "description": "This sample .CSV file shows the data field names to import your contacts into the CRM.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-07-19"
+            }
+          },
+          {
+            "id": 512,
+            "attributes": {
+              "title": "CRM - Rezora Bulk Email Lists",
+              "url": "https://www.dropbox.com/scl/fo/sr3tvpp0bw34n1olq1xh0/AHCcN1Q8T7pAI7Q6VZ39L78?rlkey=o8jtqu32mi34fv8ajauyl4q8a&dl=0",
+              "createdAt": "2025-07-30T18:41:35.836Z",
+              "updatedAt": "2025-10-27T11:36:41.207Z",
+              "publishedAt": "2025-07-30T18:41:39.070Z",
+              "description": "To send bulk emails from the new Marketing Center / CRM to the same bulk lists we use in Rezora, those lists need to be uploaded into your Platform account. This DropBox folder includes updated lists for: DC, NoVa, Loudon, MoCo and Hunt Country.",
+              "new": false,
+              "updated": true,
+              "last_updated": "2025-07-30"
+            }
+          },
+          {
+            "id": 548,
+            "attributes": {
+              "title": "Buyer Demand - Resource Links",
+              "url": "https://docs.google.com/document/d/1L37kCqaA3hUv7NxEUKTVEuCGBkAQsr_fAC7nQjMv5ZA/edit?tab=t.0",
+              "createdAt": "2025-10-27T11:40:48.718Z",
+              "updatedAt": "2025-10-27T11:40:51.709Z",
+              "publishedAt": "2025-10-27T11:40:51.702Z",
+              "description": "This GoogleDoc contains the live stream recording, pitch scripts, training video and other resources. You will need to login to your Compass account from Okta to view.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-27"
+            }
+          },
+          {
+            "id": 549,
+            "attributes": {
+              "title": "Buyer Demand - WFP Sizzle Video",
+              "url": "https://drive.google.com/file/d/1t6J53ZMDROdMZCtQy_dP8S4-pAUIFJvn/view?usp=sharing",
+              "createdAt": "2025-10-27T11:44:48.719Z",
+              "updatedAt": "2025-10-27T11:44:50.047Z",
+              "publishedAt": "2025-10-27T11:44:50.042Z",
+              "description": "This is a social media video file of the Buyer Demand video customized for WFP.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-27"
+            }
+          },
+          {
+            "id": 578,
+            "attributes": {
+              "title": "Buyer Demand - Launch Live Stream Recording",
+              "url": "https://drive.google.com/file/d/1o17WXCUGnJ1hXmmanog-PBA1VxryK9Rw/view",
+              "createdAt": "2025-10-29T11:02:51.218Z",
+              "updatedAt": "2025-10-29T11:02:59.271Z",
+              "publishedAt": "2025-10-29T11:02:59.265Z",
+              "description": "This is the launch live stream recording covering the Buyer Demand program.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-10-29"
+            }
+          },
+          {
+            "id": 612,
+            "attributes": {
+              "title": "WFP 2026 Market Outlook - PDF",
+              "url": "https://drive.google.com/file/d/1gxKTliO659RFMRw-ATZI6tz4zhw1SsDX/view",
+              "createdAt": "2025-12-18T09:55:04.706Z",
+              "updatedAt": "2025-12-18T09:55:07.522Z",
+              "publishedAt": "2025-12-18T09:55:07.517Z",
+              "description": "A comprehensive and detailed (67) page report with superior data, charts, graphics and commentary on all aspects of the real estate market for 2026 with WFP branding.",
+              "new": false,
+              "updated": false,
+              "last_updated": "2025-12-18"
+            }
+          },
+          {
+            "id": 613,
+            "attributes": {
+              "title": "WFP 2026 Market Outlook - FlipBook",
+              "url": "https://www.flipsnack.com/washingtonfineproperties/wfp-2026-real-estate-market-outlook",
+              "createdAt": "2025-12-18T09:57:13.293Z",
+              "updatedAt": "2025-12-18T09:57:14.718Z",
+              "publishedAt": "2025-12-18T09:57:14.714Z",
+              "description": "A comprehensive and detailed (67) page report with superior data, charts, graphics and commentary on all aspects of the real estate market for 2026 with WFP branding.",
+              "new": true,
+              "updated": true,
+              "last_updated": "2025-12-18"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

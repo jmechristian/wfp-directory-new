@@ -1,0 +1,202 @@
+.settingsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.settingsContainer {
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  font-family: $body;
+  font-size: 1.2rem;
+  border-radius: 1.25rem;
+  border: 3px solid $highlight;
+}
+
+// Admin page should be wider and scroll naturally
+.adminPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 24px 4vw 48px;
+}
+
+.adminContainer {
+  width: min(1400px, 92vw);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin: 0 auto;
+  font-family: $body;
+  font-size: 1.1rem;
+  border-radius: 1.25rem;
+  border: 3px solid $highlight;
+}
+
+.toggleSection {
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: $primary;
+  padding: 1rem 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.toggleLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.toggleSwitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+    &:checked + .slider {
+      background-color: $highlight;
+
+      &:before {
+        transform: translateX(26px);
+      }
+    }
+  }
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+
+  &:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+}
+
+.passwordSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  form {
+    margin-bottom: 2rem;
+    font-family: $body;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+    font-family: $bold;
+    font-size: 1.5rem;
+  }
+}
+
+.passwordRow {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: $body;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: $primary;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: $body;
+    font-size: 1.2rem;
+
+    &:hover {
+      background-color: $highlight;
+    }
+  }
+}
+
+.timestamp {
+  font-size: 1.2rem;
+  color: #666;
+  font-family: $body;
+}
+
+.skeleton {
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-toggle {
+  height: 24px;
+  width: 200px;
+  background: #e0e0e0;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.skeleton-password-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skeleton-form {
+  height: 100px;
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}

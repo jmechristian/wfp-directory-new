@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Chiswick Italic';
+  src: url('/fonts/ChiswickHeadline-LightItalic.eot');
+  src: url('/fonts/ChiswickHeadline-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/ChiswickHeadline-LightItalic.woff2') format('woff2'),
+    url('/fonts/ChiswickHeadline-LightItalic.woff') format('woff'),
+    url('/fonts/ChiswickHeadline-LightItalic.svg#ChiswickHeadline-LightItalic')
+      format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chiswick Semibold';
+  src: url('/fonts/ChiswickHeadline-Semibold.eot');
+  src: url('/fonts/ChiswickHeadline-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/ChiswickHeadline-Semibold.woff2') format('woff2'),
+    url('/fonts/ChiswickHeadline-Semibold.woff') format('woff'),
+    url('/fonts/ChiswickHeadline-Semibold.svg#ChiswickHeadline-Semibold')
+      format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chiswick';
+  src: url('/fonts/ChiswickHeadline-Light.eot');
+  src: url('/fonts/ChiswickHeadline-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/ChiswickHeadline-Light.woff2') format('woff2'),
+    url('/fonts/ChiswickHeadline-Light.woff') format('woff'),
+    url('/fonts/ChiswickHeadline-Light.svg#ChiswickHeadline-Light')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('/fonts/Gotham-Book.eot');
+  src: url('/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Gotham-Book.woff2') format('woff2'),
+    url('/fonts/Gotham-Book.woff') format('woff'),
+    url('/fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('/fonts/Gotham-Bold.eot');
+  src: url('/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Gotham-Bold.woff2') format('woff2'),
+    url('/fonts/Gotham-Bold.woff') format('woff'),
+    url('/fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+//Color
+
+$primary: #27253d;
+$secondary: #7a97ac;
+$highlight: #aa794c;
+$grey: #7e7e7e;
+$light-grey: #c8c8c8;
+$light: #f6f6f6;
+
+//Type
+
+$main: 'Chiswick';
+$italic: 'Chiswick Italic';
+$semi: 'Chiswick Semibold';
+$body: 'Gotham Book';
+$bold: 'Gotham Bold';
+
+.directory__title {
+  font-family: $main;
+  font-size: 54px;
+  color: $primary;
+
+  span {
+    font-family: $italic;
+    color: $highlight;
+    font-style: italic;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 325px) {
+  .directory__title {
+    font-size: 9.5vw;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .directory__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .directory__title {
+    font-size: 4.5vw;
+    text-align: center;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .directory__title {
+    font-size: 56px;
+  }
+}
