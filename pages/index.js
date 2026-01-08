@@ -40,7 +40,11 @@ export default function Home() {
 
         // Only show live categories/links on the public directory
         const liveCategories = (all || []).filter((c) => c?.isLive !== false);
-        const sortedCategories = orderBy(liveCategories, [(c) => c?.order ?? 0], ['asc']);
+        const sortedCategories = orderBy(
+          liveCategories,
+          [(c) => c?.order ?? 0],
+          ['asc']
+        );
         sortedCategories.forEach((cat) => {
           if (cat?.links?.items) {
             cat.links.items = orderBy(
@@ -76,6 +80,7 @@ export default function Home() {
     }
 
     const allLinks = (links || []).flatMap((c) => c?.links?.items || []);
+    console.log('allLinks', allLinks);
     const filtered = allLinks.filter((l) => {
       const title = (l?.title || '').toLowerCase();
       const desc = (l?.description || '').toLowerCase();
