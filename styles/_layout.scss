@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.page__top {
+  scroll-margin-top: 170px;
+}
+
 .body__wrapper {
   margin: 0 auto;
   padding-left: 9vw;
@@ -15,10 +19,19 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 36px;
+  margin-top: 0;
   margin-bottom: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   padding-left: 9vw;
   padding-right: 9vw;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.94);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba($primary, 0.08);
 }
 
 .content__wrapper {
@@ -79,7 +92,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    margin-top: 20px;
+    margin-top: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 
   .header__left {
@@ -93,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     gap: 1rem;
   }
 
@@ -149,7 +164,6 @@
   }
 
   .header__wrapper {
-    margin-top: 40px;
     margin-bottom: 40px;
 
     flex-direction: row;
@@ -198,7 +212,7 @@
   .header__wrapper {
     padding-left: 16vw;
     padding-right: 16vw;
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .content__wrapper {
@@ -215,7 +229,7 @@
 @media screen and (min-width: 1400px) {
   .header__wrapper {
     justify-content: space-between;
-    margin-top: 1.25vw;
+    margin-top: 0;
   }
 
   .wfp__logo {

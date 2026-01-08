@@ -2,6 +2,34 @@
   display: none;
 }
 
+.header__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.jump__bar {
+  display: flex;
+}
+
+.jump__select {
+  width: 100%;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: $body;
+  border: none;
+  border-bottom: 1px solid $grey;
+  outline: none;
+  background: transparent;
+  color: $primary;
+}
+
+.jump__select:focus {
+  border: none;
+  border-bottom: 1px solid $highlight;
+}
+
 .search__bar {
   display: flex;
   align-items: baseline;
@@ -62,6 +90,10 @@
 
 @media screen and (min-width: 1400px) {
   .search__bar input {
+    width: 250px;
+  }
+
+  .jump__select {
     width: 250px;
   }
 }

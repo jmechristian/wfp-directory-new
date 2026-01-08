@@ -90,7 +90,7 @@ export default function Home() {
   }, [state.isSearching, state.searchValue, links]);
 
   return (
-    <Container>
+    <Container categories={links}>
       {isLoading && !error ? (
         <div className='loader'>
           <div className='loader__text'>Loading Links</div>

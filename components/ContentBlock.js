@@ -24,7 +24,11 @@ const ContentBlock = ({ links, searchLinks }) => {
         <>
           {orderBy(links || [], [(c) => c?.order ?? 0], ['asc']).map(
             (category) => (
-              <div key={category.id}>
+              <section
+                key={category.id}
+                id={`cat-${category.id}`}
+                className='category__section'
+              >
                 <CategoryBlock name={category.name} desc={category.description} />
                 <div className='link__grid'>
                   {orderBy(
@@ -35,7 +39,7 @@ const ContentBlock = ({ links, searchLinks }) => {
                     <LinkBlock link={link} key={link.id} />
                   ))}
                 </div>
-              </div>
+              </section>
             )
           )}
         </>

@@ -6,7 +6,7 @@ import Search from './Search';
 import { AuthContext } from './AuthProvider';
 import { useRouter } from 'next/router';
 
-const Container = ({ children }) => {
+const Container = ({ children, categories = [] }) => {
   const { user } = useContext(AuthContext);
   const router = useRouter();
   return (
@@ -42,7 +42,7 @@ const Container = ({ children }) => {
           </div>
         </div>
         <div className='header__right'>
-          <Search />
+          <Search categories={categories} />
           {user && user.type === 'admin' && (
             <div className='user__info'>
               <button onClick={() => router.push('/settings')}>BV</button>
@@ -51,6 +51,7 @@ const Container = ({ children }) => {
         </div>
       </div>
       <div className='page__container'>
+        <div id='page-top' className='page__top' />
         <div className='body__wrapper'>
           <div className='content__wrapper'>{children}</div>
         </div>
