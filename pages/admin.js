@@ -60,6 +60,9 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
   const [isCategoryModalOpen, setIsCategoryModalOpen] = useState(false);
   const [categoryDraft, setCategoryDraft] = useState(emptyCategory);
   const [categoryModalError, setCategoryModalError] = useState('');
+  const [editingCategory, setEditingCategory] = useState(null);
+  const [isSavingCategory, setIsSavingCategory] = useState(false);
+  const [categoryStatus, setCategoryStatus] = useState('');
   const [isLinkModalOpen, setIsLinkModalOpen] = useState(false);
   const [linkDraft, setLinkDraft] = useState(emptyLink);
   const [editingLink, setEditingLink] = useState(null);
@@ -151,30 +154,78 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
     await refresh();
   };
 
-  const onCreateCategory = async (e) => {
+  const onOpenCreateCategory = () => {
+    setEditingCategory(null);
+    setCategoryModalError('');
+    setCategoryStatus('');
+    setCategoryDraft({
+      ...emptyCategory,
+      order: (categories?.length || 0) + 1,
+      isLive: true,
+    });
+    setIsCategoryModalOpen(true);
+  };
+
+  const onOpenEditCategory = (category) => {
+    setEditingCategory(category);
+    setCategoryModalError('');
+    setCategoryStatus('');
+    setCategoryDraft({
+      name: category.name || '',
+      description: category.description || '',
+      order: category.order ?? 1,
+      isLive: category.isLive !== false,
+    });
+    setIsCategoryModalOpen(true);
+  };
+
+  const onSaveCategory = async (e) => {
     e.preventDefault();
     setError('');
     setCategoryModalError('');
+    setCategoryStatus('');
+    setIsSavingCategory(true);
     try {
-      const { errors } = await client.graphql({
-        query: gqlCreateCategory,
-        variables: {
-          input: {
-            name: categoryDraft.name,
-            description: categoryDraft.description || null,
-            order: Number(categoryDraft.order || 0),
-            isLive: !!categoryDraft.isLive,
+      const baseInput = {
+        name: categoryDraft.name,
+        description: categoryDraft.description || null,
+        order: Number(categoryDraft.order || 0),
+        isLive: !!categoryDraft.isLive,
+      };
+
+      if (editingCategory) {
+        const { errors } = await client.graphql({
+          query: gqlUpdateCategory,
+          variables: {
+            input: {
+              id: editingCategory.id,
+              ...baseInput,
+            },
           },
-        },
-        authMode: 'userPool',
-      });
-      if (errors?.length) throw new Error(errors.map((x) => x.message).join(', '));
+          authMode: 'userPool',
+        });
+        if (errors?.length) throw new Error(errors.map((x) => x.message).join(', '));
+        setCategoryStatus('Category updated successfully.');
+      } else {
+        const { errors } = await client.graphql({
+          query: gqlCreateCategory,
+          variables: {
+            input: baseInput,
+          },
+          authMode: 'userPool',
+        });
+        if (errors?.length) throw new Error(errors.map((x) => x.message).join(', '));
+        setCategoryStatus('Category created successfully.');
+      }
 
       setIsCategoryModalOpen(false);
+      setEditingCategory(null);
       setCategoryDraft(emptyCategory);
       await refresh();
     } catch (err) {
       setCategoryModalError(err?.message || 'Unable to create category.');
+    } finally {
+      setIsSavingCategory(false);
     }
   };
 
@@ -375,12 +426,13 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
                 type='button'
                 aria-label='New category'
                 title='New category'
-                onClick={() => setIsCategoryModalOpen(true)}
+                onClick={onOpenCreateCategory}
               >
                 <PlusIcon className={styles.icon} />
               </button>
             </div>
             <div className={styles.cardBody}>
+              {categoryStatus && <div className={styles.subtitle}>{categoryStatus}</div>}
               {isLoading ? (
                 <div className={styles.subtitle}>Loading…</div>
               ) : (
@@ -391,6 +443,7 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
                       className={`${styles.listItem} ${
                         c.id === selectedCategoryId ? styles.listItemActive : ''
                       }`}
+                      title={c.name || ''}
                       onClick={() => setSelectedCategoryId(c.id)}
                       draggable
                       onDragStart={() => setDragCategoryIdx(idx)}
@@ -410,8 +463,19 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
                           Order {c.order} • {c.links?.items?.length || 0} links
                         </div>
                       </div>
-                      <span className={styles.pill}>{c.isLive !== false ? 'Live' : 'Hidden'}</span>
                       <div className={styles.actions}>
+                        <button
+                          className={styles.iconBtn}
+                          type='button'
+                          aria-label='Edit category'
+                          title='Edit'
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onOpenEditCategory(c);
+                          }}
+                        >
+                          <PencilAltIcon className={styles.icon} />
+                        </button>
                         <button
                           className={styles.iconBtn}
                           type='button'
@@ -584,10 +648,12 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
 
       {isCategoryModalOpen && (
         <Modal
-          title='Create Category'
+        title={editingCategory ? 'Edit Category' : 'Create Category'}
           onClose={() => {
             setIsCategoryModalOpen(false);
             setCategoryModalError('');
+            setEditingCategory(null);
+            setIsSavingCategory(false);
           }}
           footer={
             <>
@@ -597,17 +663,24 @@ function AdminInner({ isSignedIn, signOut, authError, signInForm }) {
                 onClick={() => {
                   setIsCategoryModalOpen(false);
                   setCategoryModalError('');
+                  setEditingCategory(null);
+                  setIsSavingCategory(false);
                 }}
               >
                 Cancel
               </button>
-              <button className={styles.btn} type='submit' form='createCategoryForm'>
-                Create
+              <button
+                className={styles.btn}
+                type='submit'
+                form='categoryForm'
+                disabled={isSavingCategory}
+              >
+                {isSavingCategory ? 'Saving…' : editingCategory ? 'Save' : 'Create'}
               </button>
             </>
           }
         >
-          <form id='createCategoryForm' onSubmit={onCreateCategory} className={styles.stack}>
+          <form id='categoryForm' onSubmit={onSaveCategory} className={styles.stack}>
             {categoryModalError && <div className={styles.error}>{categoryModalError}</div>}
             <input
               className={styles.input}
